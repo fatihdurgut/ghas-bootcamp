@@ -1,5 +1,5 @@
 asn1crypto==0.24.0
-certifi==2020.6.20
+certifi==2026.2.25
 chardet==3.0.4
 click==7.1.2
 cryptography==46.0.5
@@ -12,9 +12,9 @@ itsdangerous==1.1.0
 Jinja2==2.11.2
 keyring==17.1.1
 keyrings.alt==3.1.1
-MarkupSafe==1.1.1
+MarkupSafe==3.0.3
 pycrypto==2.6.1
-PyGObject==3.30.4
+PyGObject==3.56.2
 PyJWT==1.7.1
 python-dotenv==0.15.0
 pyxdg==0.25
