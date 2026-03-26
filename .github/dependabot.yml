@@ -4,7 +4,6 @@
 # https://docs.github.com/code-security/dependabot/dependabot-version-updates/configuration-options-for-the-dependabot.yml-file
 
 version: 2
-open-pull-requests-limit: 10
 updates:
   - package-ecosystem: "pip"
     directory: "/authn-service"
@@ -16,6 +15,7 @@ updates:
       - "fatihdurgut"
     reviewers:
       - "fatihdurgut"
+    open-pull-requests-limit: 10
     commit-message:
       prefix: "pip"
 
@@ -29,6 +29,7 @@ updates:
       - "fatihdurgut"
     reviewers:
       - "fatihdurgut"
+    open-pull-requests-limit: 10
     commit-message:
       prefix: "npm"
 
@@ -42,6 +43,7 @@ updates:
       - "fatihdurgut"
     reviewers:
       - "fatihdurgut"
+    open-pull-requests-limit: 10
     commit-message:
       prefix: "maven"
 
@@ -55,5 +57,6 @@ updates:
       - "fatihdurgut"
     reviewers:
       - "fatihdurgut"
+    open-pull-requests-limit: 10
     commit-message:
       prefix: "gomod"
