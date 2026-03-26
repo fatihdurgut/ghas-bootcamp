@@ -11,7 +11,7 @@
   "dependencies": {
     "axios": "0.18.0",
     "bootstrap-vue": "2.0.0-rc.11",
-    "core-js": "^3.6.5",
+    "core-js": "^3.49.0",
     "less": "^3.12.2",
     "less-loader": "^12.3.2",
     "uikit": "^3.25.13",
