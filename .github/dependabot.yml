@@ -9,6 +9,11 @@ updates:
     directory: "/authn-service"
     schedule:
       interval: "daily"
+    groups:
+      security-updates:
+        applies-to: security-updates
+        patterns:
+          - "*"
     labels:
       - "triage-required"
     assignees:
@@ -23,6 +28,11 @@ updates:
     directory: "/frontend"
     schedule:
       interval: "daily"
+    groups:
+      security-updates:
+        applies-to: security-updates
+        patterns:
+          - "*"
     labels:
       - "triage-required"
     assignees:
@@ -37,6 +47,11 @@ updates:
     directory: "/storage-service"
     schedule:
       interval: "daily"
+    groups:
+      security-updates:
+        applies-to: security-updates
+        patterns:
+          - "*"
     labels:
       - "triage-required"
     assignees:
@@ -51,6 +66,11 @@ updates:
     directory: "/gallery-service"
     schedule:
       interval: "daily"
+    groups:
+      security-updates:
+        applies-to: security-updates
+        patterns:
+          - "*"
     labels:
       - "triage-required"
     assignees:
