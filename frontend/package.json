@@ -9,14 +9,14 @@
     "exec": "PATH=$(npm bin):$PATH"
   },
   "dependencies": {
-    "axios": "0.18.0",
-    "bootstrap-vue": "2.0.0-rc.11",
+    "axios": "0.30.3",
+    "bootstrap-vue": "2.23.1",
     "core-js": "^3.6.5",
     "less": "^4.6.4",
     "less-loader": "^12.3.2",
     "uikit": "^3.25.13",
-    "vue": "2.5.13",
-    "vue-instantsearch": "2.7.0",
+    "vue": "3.0.0",
+    "vue-instantsearch": "4.24.3",
     "vue-router": "^5.0.4",
     "vuex": "^3.5.1",
     "vuikit": "^0.8.10"
@@ -24,11 +24,11 @@
   "devDependencies": {
     "@vue/cli-plugin-babel": "^5.0.9",
     "@vue/cli-plugin-eslint": "^5.0.9",
-    "@vue/cli-service": "^4.5.8",
+    "@vue/cli-service": "^5.0.9",
     "babel-eslint": "^10.1.0",
-    "eslint": "^6.7.2",
+    "eslint": "^10.1.0",
     "eslint-plugin-vue": "^6.2.2",
-    "vue-template-compiler": "2.5.13"
+    "vue-template-compiler": "2.7.16"
   },
   "eslintConfig": {
     "root": true,
